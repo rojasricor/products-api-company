@@ -4,7 +4,7 @@
   "description": "This is an restapi for rsystfip project",
   "main": "index.js",
   "scripts": {
-    "build": "babel src --out-dir build",
+    "build": "babel src --out-dir dist",
     "dev": "nodemon src/index.js --exec babel-node",
     "start": "node build/index.js"
   },
